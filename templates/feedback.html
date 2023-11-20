@@ -1,1 +1,8 @@
-{% extends "base.html" %}
+{#{% extends "base.html" %}#}
+<form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.name.label }} {{ form.name(size=20) }}
+    {{ form.email.label }} {{ form.email(size=20) }}
+    {{ form.message.label }} {{ form.message(size=20) }}
+    {{ form.submit() }}
+</form>
