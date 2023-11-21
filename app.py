@@ -21,10 +21,10 @@ class Feedback(db.Model):
 
 
 class FeedbackForm(FlaskForm):
-    name = StringField('Name', validators=[DataRequired()])
-    email = StringField('Email', validators=[DataRequired()])
-    message = StringField('Message', validators=[DataRequired()])
-    submit = SubmitField('Submit')
+    name = StringField('Ваше имя', validators=[DataRequired()])
+    email = StringField('Ваша почта', validators=[DataRequired()])
+    message = StringField('Сообщение', validators=[DataRequired()])
+    submit = SubmitField('Отправить')
 
 
 def extract_data_to_file():
