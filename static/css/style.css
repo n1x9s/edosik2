@@ -25,3 +25,63 @@
 .feedback{
     margin-left: 300px;
 }
+.hfeedback{
+    font-size: 40px;
+    margin-left: 300px;
+}
+.feedback-div{
+    position: absolute;
+    top: 200px;
+    
+}
+.example1{
+    position: absolute;
+    top: 150px;
+    margin-left: 300px;
+}
+.example2{
+    position: absolute;
+    top: 150px;
+    margin-left: 700px;
+}
+.example3{
+    position: absolute;
+    top: 150px;
+    margin-left: 1100px;
+}
+.example4{
+    position: absolute;
+    top: 600px;
+    margin-left: 100px;
+}
+.example5{
+    position: absolute;
+    top: 600px;
+    margin-left: 500px;
+}
+.example6{
+    position: absolute;
+    top: 600px;
+    margin-left: 900px;
+}
+.example7{
+    position: absolute;
+    top: 1050px;
+    margin-left: 300px;
+}
+.example8{
+    position: absolute;
+    top: 1050px;
+    margin-left: 700px;
+}
+.example9{
+    position: absolute;
+    top: 1050px;
+    margin-left: 1100px;
+}
+.hexamples{
+    position: absolute;
+    top: 50px;
+    font-size: 40px;
+    margin-left: 300px;
+}

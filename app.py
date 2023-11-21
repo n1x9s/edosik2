@@ -41,12 +41,12 @@ def extract_data_to_file():
 @app.route('/')
 @app.route('/index')
 def index():
-    return render_template('index.html', title="Home Page")
+    return render_template('index.html', title="Домашняя страница")
 
 
 @app.route('/examples')
 def examples():
-    return render_template('examples.html', title="Examples")
+    return render_template('examples.html', title="Примеры работ")
 
 
 @app.route('/feedback', methods=['GET', 'POST'])
@@ -58,7 +58,7 @@ def feedback():
         db.session.commit()
         flash('Feedback submitted successfully!')
         extract_data_to_file()
-    return render_template('feedback.html', form=form, title="Feedback")
+    return render_template('feedback.html', form=form, title="Обратная связь")
 
 
 if __name__ == '__main__':
